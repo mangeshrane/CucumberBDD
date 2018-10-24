@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="ReportListener.CucumberReport" />
+	</listeners>
+	<test name="Test - 1">
+		<classes>
+			<class name="TestRunners.loginFeatureRunner" />
+			<class name="Base.BaseClass" />
+			<class name="pageObjects.LoginPage" />
+			<class name="pageObjects.HomePage" />
+			<class name="stepDefinations.LoginSteps" />
+		</classes>
+	</test>
+</suite> 
