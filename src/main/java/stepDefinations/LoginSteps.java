@@ -74,7 +74,7 @@ public class LoginSteps extends BaseClass {
         Assert.assertTrue(loginPage.errorMsg.isDisplayed());
     }
     
-    @After
+    @After("@web")
     public void quit() {
     	driver.quit();
     }

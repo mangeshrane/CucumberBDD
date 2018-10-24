@@ -33,7 +33,7 @@ public class LoginPage {
     @FindBy(linkText = "Forgot password?")
     WebElement forgotPasswordLink;
 
-    @FindBy(className = "flash-error")
+    @FindBy(xpath = "//div[@class='container']")
     public WebElement errorMsg;
 
     public void login(String user, String pass){

@@ -1,3 +1,4 @@
+@web
 Feature: Github Login Feature
 
   Background: User is on login page
